@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: white;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.register-container{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+input{
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%;
+    
+}
+input:focus{
+    outline: none;
+    border-color: #007bff;
+}
+
+.password-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.password-container button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    color: #007bff;
+    font-size: 14px;
+}
+
+.register-btn{
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.register-btn:hover{
+    background: #0056b3;
+}
+
+p{
+    margin-top: 15px 0;
+    color: #333;
+}

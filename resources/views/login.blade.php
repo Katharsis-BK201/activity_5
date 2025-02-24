@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="{{asset('/build/assets/css/login.css')}}">
+    <link rel="stylesheet" href="{{asset('/assets/css/login.css')}}">
 </head>
 <body>
     <section class = "login-container">
-        <img src="\build\assets\img\perc-hub-high-resolution-logo-transparent.png" alt="logo" class = "logo">
+        <img src="\assets\img\perc-hub-high-resolution-logo-transparent.png" alt="logo" class = "logo">
         <h1>Welcome! Please Login or Register</h1>
         <form action="{{ route('login') }}" method="POST">
             @csrf
@@ -36,6 +36,6 @@
         </form>
         <p>Don't have an account?</p><a href="{{route('register')}}">Register Here!</a>
     </section>
-    <script src="/build/assets/js/index.js"></script>
+    <script src="/assets/js/index.js"></script>
 </body>
 </html>
